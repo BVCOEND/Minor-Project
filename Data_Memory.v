@@ -19,7 +19,7 @@ module Data_Memory(
     output reg [memory_width-1:0] data_bus
     );
 
-parameter memory_width=8;			//  MEMORY : 256 X 8 bytes
+parameter memory_width=8;			//  MEMORY : 256 X 8 bits
 parameter memory_size=256;			//	 256 Rows and 8 Columns
 parameter address_width=8;
 
